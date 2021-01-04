@@ -1,0 +1,54 @@
+/* Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+
+
+body {
+    font-family: 'Roboto';
+    font-size: 12px;
+    background-color: #EAC926;
+}
+
+main {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+}
+
+.article {
+    margin: 15px;
+    background-color: white;
+}
+
+.article-container{
+    border-top: 1px solid #ebebeb;
+}
+
+.titles {
+    font-size: 24px ;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.description, .discount {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+  
+}
+
+.icon {
+    size: 2em;
+    margin-bottom: 10px;
+}
+
+@media (min-width:361px) {}
