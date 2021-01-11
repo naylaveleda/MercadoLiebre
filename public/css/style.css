@@ -10,7 +10,18 @@ Verde: #39b54a; */
 body {
     font-family: 'Roboto';
     font-size: 12px;
-    background-color: #EAC926;
+    background: #EAC926;
+}
+
+.hamburguer {
+    display: flex;
+    justify-content: center;
+    background-color: #03264C;
+    color: white;
+    border-radius: 10%;
+    padding: 1em;
+    width: 1em;
+
 }
 
 main {
@@ -22,7 +33,7 @@ main {
 
 .article {
     margin: 15px;
-    background-color: white;
+    background-: #03264C: white;
 }
 
 .article-container{
@@ -43,12 +54,14 @@ main {
 
 footer {
     text-align: center;
+    background-color: #fff;
   
 }
 
 .icon {
-    size: 2em;
+    font-size: 2em;
     margin-bottom: 10px;
+    color: #03264C;
 }
 
 @media (min-width:361px) {}
